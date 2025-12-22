@@ -1,0 +1,25 @@
+# --- Core Data Processing ---
+numpy>=1.21.0
+pandas>=1.3.0
+joblib>=1.1.0
+scipy>=1.7.0
+
+# --- Machine Learning  ---
+scikit-learn>=1.0.0
+imbalanced-learn>=0.8.0  
+
+# --- Deep Learning & Transformers (Hugging Face) ---
+torch>=1.10.0            # Cài bản CPU hoặc GPU tùy máy
+transformers>=4.20.0
+datasets>=2.0.0          # Dùng trong train_ner.py
+accelerate>=0.20.0       # Thư viện hỗ trợ train nhanh của HuggingFace
+sentencepiece            # Bắt buộc để chạy Tokenizer của PhoBERT
+
+# --- NLP Libraries ---
+spacy>=3.0.0             # Dùng cho train_ner_spacy.py
+gensim>=4.0.0            # Dùng cho Word2Vec
+
+# --- Visualization & Web App (Gradio) ---
+gradio>=4.0.0            # Giao diện web
+networkx>=2.6.0          # Xử lý đồ thị tri thức
+plotly>=5.0.0            # Vẽ đồ thị tương tác
