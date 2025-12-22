@@ -1,0 +1,37 @@
+{
+  "lang":"vi",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.8.7,<3.9.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"4b65aa7",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "ner":[
+      "B\u1ec7nh",
+      "Ch\u1ea9n \u0111o\u00e1n",
+      "Nguy\u00ean nh\u00e2n",
+      "Tri\u1ec7u ch\u1ee9ng",
+      "\u0110i\u1ec1u tr\u1ecb"
+    ]
+  },
+  "pipeline":[
+    "ner"
+  ],
+  "components":[
+    "ner"
+  ],
+  "disabled":[
+
+  ]
+}

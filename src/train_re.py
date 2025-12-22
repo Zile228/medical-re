@@ -197,7 +197,7 @@ def get_vectors_dynamic(vector_type, train_sentences, use_silver=False):
 def get_models():
     return {
         'Logistic Regression': LogisticRegression(max_iter=3000, class_weight='balanced', random_state=42),
-        'SVM': SVC(kernel='linear', probability=True, class_weight='balanced', random_state=42),
+        'SVM': SVC(kernel='rbf', C=0.8, max_iter=2000, probability=True, class_weight='balanced', random_state=42),
         'Random Forest': RandomForestClassifier(n_estimators=200, class_weight=None, random_state=42, max_depth=15), 
         'MLP Deep Learning': MLPClassifier(hidden_layer_sizes=(128, 64), max_iter=1000, early_stopping=True, random_state=42)
     }
@@ -216,11 +216,11 @@ def main():
     print("Phân bố nhãn Train:", stats)
     
     if args.use_silver:
-        MAJORITY_TARGET = 300 
-        MINORITY_TARGET = 100 
+        MAJORITY_TARGET = 1250
+        MINORITY_TARGET = 500 
     else:
-        MAJORITY_TARGET = 300
-        MINORITY_TARGET = 100 
+        MAJORITY_TARGET = 625
+        MINORITY_TARGET = 250 
     
     print(f"Mục tiêu Sampling: No_relation={MAJORITY_TARGET}, Others={MINORITY_TARGET}")
     
