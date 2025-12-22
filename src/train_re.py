@@ -216,10 +216,10 @@ def main():
     print("Phân bố nhãn Train:", stats)
     
     if args.use_silver:
-        MAJORITY_TARGET = 250 
+        MAJORITY_TARGET = 300 
         MINORITY_TARGET = 100 
     else:
-        MAJORITY_TARGET = 250
+        MAJORITY_TARGET = 300
         MINORITY_TARGET = 100 
     
     print(f"Mục tiêu Sampling: No_relation={MAJORITY_TARGET}, Others={MINORITY_TARGET}")
