@@ -10,7 +10,7 @@
 ## Công nghệ sử dụng
 - **Ngôn ngữ:** Python 3.8+
 - **Model:** Logistic Regression, SVM, Random Forest, MLP (Deep Learning).
-- **Embeddings:** BoW, TF-IDF, Word2Vec, ViHealthBERT.
+- **Embeddings:** BoW, TF-IDF, Word2Vec, PhoBERT.
 - **App:** Gradio.
 
 ## Cấu trúc repo
