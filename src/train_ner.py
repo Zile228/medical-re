@@ -30,7 +30,7 @@ PROCESSED_TEST_JSON = os.path.join(DATA_DIR, 'processed', 'test_tasks.json')
 MODEL_OUTPUT_DIR = os.path.join(MODEL_DIR, 'ner_bert_model')
 
 # Model gốc (Pre-trained)
-BERT_MODEL_NAME = "vinai/phobert-base"
+BERT_MODEL_NAME = "tmnam/vihealthbert-w_unsup-SynPD"
 
 # Lớp Trainer tùy chỉnh để áp dụng trọng số cho Loss Function
 class WeightedTrainer(Trainer):
