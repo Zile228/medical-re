@@ -1,0 +1,4439 @@
+[
+  {
+    "id": 139,
+    "annotations": [
+      {
+        "id": 24,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 12,
+              "end": 32,
+              "text": "cơn đau đầu migraine",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "Xmmu6vinMk",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 56,
+              "end": 64,
+              "text": "nhạy cảm",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "TTggFVtLeT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 66,
+              "end": 87,
+              "text": "khó chịu với ánh sáng",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "4xB6aKArBe",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 89,
+              "end": 99,
+              "text": "tiếng động",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "gVuy3UTRwE",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 101,
+              "end": 109,
+              "text": "buồn nôn",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "HHES3bJ2o4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 113,
+              "end": 116,
+              "text": "nôn",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "PMjHHMbJCR",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "Xmmu6vinMk",
+            "to_id": "TTggFVtLeT",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          },
+          {
+            "from_id": "Xmmu6vinMk",
+            "to_id": "4xB6aKArBe",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          },
+          {
+            "from_id": "Xmmu6vinMk",
+            "to_id": "gVuy3UTRwE",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          },
+          {
+            "from_id": "Xmmu6vinMk",
+            "to_id": "HHES3bJ2o4",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          },
+          {
+            "from_id": "Xmmu6vinMk",
+            "to_id": "PMjHHMbJCR",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T12:59:53.511847Z",
+        "updated_at": "2025-12-21T12:59:53.511847Z",
+        "draft_created_at": "2025-12-21T12:58:32.698430Z",
+        "lead_time": 171.011,
+        "prediction": {},
+        "result_count": 7,
+        "unique_id": "ff211d9a-c9c5-453d-81bd-61db2e06753f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 26,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ed3e32c4-daudau.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Đi cùng với cơn đau đầu migraine là các triệu chứng như nhạy cảm, khó chịu với ánh sáng, tiếng động, buồn nôn và nôn."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T11:49:59.412944Z",
+    "updated_at": "2025-12-21T12:59:53.701474Z",
+    "inner_id": 21,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 17,
+    "annotations": [
+      {
+        "id": 88,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 5,
+              "end": 14,
+              "text": "Alzheimer",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "zcxFZj1gVM",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:19:25.800842Z",
+        "updated_at": "2025-12-22T11:19:25.801919Z",
+        "draft_created_at": "2025-12-22T11:18:37.215727Z",
+        "lead_time": 57.915,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "0e39d17c-2c95-473d-9cfa-c107ca992a04",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 89,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "321ebccc-alzheimer.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bệnh Alzheimer là nguyên nhân hàng đầu gây nên tình trạng sa sút trí tuệ, ảnh hưởng đến suy nghĩ và hành vi của con người."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T11:00:35.773434Z",
+    "updated_at": "2025-12-22T11:19:25.853376Z",
+    "inner_id": 17,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 156,
+    "annotations": [
+      {
+        "id": 7,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 60,
+              "end": 71,
+              "text": "viêm dạ dày",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "Fx1YCoyVBt",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 6,
+              "end": 23,
+              "text": "vi khuẩn H.pylori",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "uWoYOdKnlu",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "uWoYOdKnlu",
+            "to_id": "Fx1YCoyVBt",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:02:01.623051Z",
+        "updated_at": "2025-12-22T11:02:01.623051Z",
+        "draft_created_at": "2025-12-22T11:01:35.646149Z",
+        "lead_time": 43.002,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "63596ffb-0b82-4a90-814f-f322115346d8",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 9,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ab6ef78d-data_viemdaday.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Nhiễm vi khuẩn H.pylori là nguyên nhân làm tăng khả năng bị viêm dạ dày ở những người sống tại môi trường không đảm bảo vệ sinh."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T10:46:02.078667Z",
+    "updated_at": "2025-12-22T11:02:01.707277Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 97,
+    "annotations": [
+      {
+        "id": 53,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 10,
+              "end": 21,
+              "text": "đo huyết áp",
+              "labels": [
+                "Chẩn đoán"
+              ]
+            },
+            "id": "dRoeIcGHq4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 63,
+              "end": 78,
+              "text": "máy đo huyết áp",
+              "labels": [
+                "Chẩn đoán"
+              ]
+            },
+            "id": "B3JCjlEnvd",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 92,
+              "end": 104,
+              "text": "huyết áp cao",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "mgFAmdhdjH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "mgFAmdhdjH",
+            "to_id": "B3JCjlEnvd",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Chẩn_đoán_bằng"
+            ]
+          },
+          {
+            "from_id": "mgFAmdhdjH",
+            "to_id": "dRoeIcGHq4",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Chẩn_đoán_bằng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T11:55:57.490974Z",
+        "updated_at": "2025-12-21T11:55:57.490974Z",
+        "draft_created_at": "2025-12-21T11:55:40.087688Z",
+        "lead_time": 30.699,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "d5463601-530f-4302-b019-8b1723374964",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 51,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "2f350640-RE.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bác sĩ sẽ đo huyết áp cho bạn vài lần bằng một thiết bị gọi là máy đo huyết áp để chẩn đoán huyết áp cao."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:43:19.051035Z",
+    "updated_at": "2025-12-21T11:55:57.553030Z",
+    "inner_id": 36,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 69,
+    "annotations": [
+      {
+        "id": 48,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 5,
+              "end": 14,
+              "text": "Parkinson",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "KAQa7S8DV1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 41,
+              "end": 70,
+              "text": "phẫu thuật kích thích não sâu",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "Nan_64fRxq",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 76,
+              "end": 98,
+              "text": "cắt bỏ vùng tổn thương",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "zrVC8OZZaa",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "KAQa7S8DV1",
+            "to_id": "Nan_64fRxq",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "KAQa7S8DV1",
+            "to_id": "zrVC8OZZaa",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T17:05:56.431223Z",
+        "updated_at": "2025-12-21T17:05:56.431223Z",
+        "draft_created_at": "2025-12-21T17:05:22.724704Z",
+        "lead_time": 43.165,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "b7ced0f4-4cf9-49ac-8bcd-add3e3645820",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 69,
+        "project": 5,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a5895984-parkinson.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bệnh Parkinson có thể được điều trị bằng phẫu thuật kích thích não sâu hoặc cắt bỏ vùng tổn thương nếu không đáp ứng với thuốc."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T16:43:38.644919Z",
+    "updated_at": "2025-12-21T17:05:56.546327Z",
+    "inner_id": 35,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 5,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 154,
+    "annotations": [
+      {
+        "id": 43,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 15,
+              "text": "Viêm dạ dày mạn",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "vsF2tPQPYz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:47:07.141862Z",
+        "updated_at": "2025-12-22T11:47:07.141862Z",
+        "draft_created_at": "2025-12-22T10:59:28.025044Z",
+        "lead_time": 123.54299999999999,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "31d3bff3-fa7d-4ea7-87db-1fe239727b30",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 7,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ab6ef78d-data_viemdaday.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Viêm dạ dày mạn thường không có triệu chứng, chủ yếu được phát hiện khi nội soi dạ dày."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T10:46:02.076651Z",
+    "updated_at": "2025-12-22T11:47:07.227349Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 56,
+    "annotations": [
+      {
+        "id": 68,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 5,
+              "end": 14,
+              "text": "Parkinson",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "MEt2uGwNu2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 42,
+              "end": 49,
+              "text": "tàn tật",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "iqEzfA-RF_",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 51,
+              "end": 59,
+              "text": "bất động",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "eiXSXl5yjB",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 61,
+              "end": 69,
+              "text": "khó nuốt",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "E69tQPoDW3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 73,
+              "end": 86,
+              "text": "viêm phổi hít",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "sH4dEiHzP9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "MEt2uGwNu2",
+            "to_id": "iqEzfA-RF_",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "MEt2uGwNu2",
+            "to_id": "eiXSXl5yjB",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "MEt2uGwNu2",
+            "to_id": "E69tQPoDW3",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "MEt2uGwNu2",
+            "to_id": "sH4dEiHzP9",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T17:36:47.966166Z",
+        "updated_at": "2025-12-21T17:36:47.966166Z",
+        "draft_created_at": "2025-12-21T17:35:56.456943Z",
+        "lead_time": 65.488,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "58f0be33-a2db-457e-9982-45fe28fe49f6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 56,
+        "project": 5,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a5895984-parkinson.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bệnh Parkinson dẫn đến các biến chứng như tàn tật, bất động, khó nuốt và viêm phổi hít."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T16:43:38.626643Z",
+    "updated_at": "2025-12-21T17:36:48.085730Z",
+    "inner_id": 22,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 5,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 16,
+    "annotations": [
+      {
+        "id": 87,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 5,
+              "end": 14,
+              "text": "Alzheimer",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "a2UlDwCD6R",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:18:26.304794Z",
+        "updated_at": "2025-12-22T11:18:26.304794Z",
+        "draft_created_at": "2025-12-22T11:18:24.012228Z",
+        "lead_time": 11.086,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "8750de34-254c-40d0-9d84-fcebf451a880",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 88,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "321ebccc-alzheimer.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bệnh Alzheimer là căn bệnh phổ biến thường thấy ở những người cao tuổi và đang ảnh hưởng ngày càng nhiều trong giới trẻ."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T11:00:35.773434Z",
+    "updated_at": "2025-12-22T11:18:26.356856Z",
+    "inner_id": 16,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 113,
+    "annotations": [
+      {
+        "id": 36,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 22,
+              "end": 41,
+              "text": "nhồi máu cơ tim cấp",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "7J3uQwRBAJ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 45,
+              "end": 51,
+              "text": "đột tử",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "QUnIFn3z7r",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-20T19:48:33.841373Z",
+        "updated_at": "2025-12-20T19:48:33.841373Z",
+        "draft_created_at": null,
+        "lead_time": 11.75,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "b7da437f-2b45-4a49-97bb-6e910d79e3e1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 68,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "2f350640-RE.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "30 – 50% bệnh nhân bị nhồi máu cơ tim cấp bị đột tử trước khi được cấp cứu."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:43:19.054452Z",
+    "updated_at": "2025-12-20T19:48:33.889845Z",
+    "inner_id": 53,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 112,
+    "annotations": [
+      {
+        "id": 61,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 29,
+              "end": 43,
+              "text": "bệnh mạch vành",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "6C0DGmyxnB",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 60,
+              "end": 77,
+              "text": "cơn đau thắt ngực",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "ZWER5Pooul",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 82,
+              "end": 102,
+              "text": "khó thở khi gắng sức",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "gcEurmH04F",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "6C0DGmyxnB",
+            "to_id": "ZWER5Pooul",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          },
+          {
+            "from_id": "6C0DGmyxnB",
+            "to_id": "gcEurmH04F",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T12:06:08.997154Z",
+        "updated_at": "2025-12-21T12:06:08.997154Z",
+        "draft_created_at": "2025-12-21T12:05:52.045543Z",
+        "lead_time": 28.364,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "d15f3f5d-6714-4e7a-ad13-7baa082d1565",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 67,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "2f350640-RE.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Dấu hiệu thường gặp nhất của bệnh mạch vành là bệnh nhân có cơn đau thắt ngực hay khó thở khi gắng sức."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:43:19.054452Z",
+    "updated_at": "2025-12-21T12:06:09.041580Z",
+    "inner_id": 52,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 185,
+    "annotations": [
+      {
+        "id": 36,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 25,
+              "text": "Trào ngược mật vào dạ dày",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "y8RFdctsCA",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 57,
+              "end": 68,
+              "text": "viêm dạ dày",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "mgSzjWsuYU",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "y8RFdctsCA",
+            "to_id": "mgSzjWsuYU",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:41:59.756343Z",
+        "updated_at": "2025-12-22T11:41:59.756343Z",
+        "draft_created_at": "2025-12-22T11:41:53.314494Z",
+        "lead_time": 20.703,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "cb7468b0-ebd1-4369-88d8-ab34b82b4838",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 38,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ab6ef78d-data_viemdaday.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Trào ngược mật vào dạ dày là yếu tố làm tăng nguy cơ mắc viêm dạ dày."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T10:46:02.078667Z",
+    "updated_at": "2025-12-22T11:41:59.839220Z",
+    "inner_id": 38,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 19,
+    "annotations": [
+      {
+        "id": 90,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 29,
+              "text": "Sự teo một số bộ phận của não",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "exvFpjO21N",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 31,
+              "end": 56,
+              "text": "viêm, tổn thương mạch máu",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "qYXQOo2ime",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 58,
+              "end": 80,
+              "text": "sản xuất các gốc tự do",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "3ulIJGDiGV",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 84,
+              "end": 109,
+              "text": "rối loạn chức năng ty thể",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "ektQw3APEu",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 172,
+              "end": 181,
+              "text": "Alzheimer",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "AebII1-TQW",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:20:26.096235Z",
+        "updated_at": "2025-12-22T11:20:26.096235Z",
+        "draft_created_at": "2025-12-22T11:20:05.786205Z",
+        "lead_time": 38.161,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "09d0c9a9-a7c8-44d1-a2b3-1bc8ea466857",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 91,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "321ebccc-alzheimer.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Sự teo một số bộ phận của não, viêm, tổn thương mạch máu, sản xuất các gốc tự do và rối loạn chức năng ty thể là những thay đổi liên quan đến tuổi tác góp phần gây ra bệnh Alzheimer."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T11:00:35.774448Z",
+    "updated_at": "2025-12-22T11:20:26.165435Z",
+    "inner_id": 19,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 83,
+    "annotations": [
+      {
+        "id": 42,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 9,
+              "end": 31,
+              "text": "bệnh tiểu đường tuýp 2",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "KMgzlrTb_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 56,
+              "end": 73,
+              "text": "thay đổi lối sống",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "9tWupJBFEL",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 77,
+              "end": 87,
+              "text": "dùng thuốc",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "3fQky4wYzf",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "KMgzlrTb_6",
+            "to_id": "9tWupJBFEL",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "KMgzlrTb_6",
+            "to_id": "3fQky4wYzf",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T11:19:39.378122Z",
+        "updated_at": "2025-12-21T11:19:39.378122Z",
+        "draft_created_at": "2025-12-21T11:19:16.891367Z",
+        "lead_time": 32.929,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "cf8e6403-e503-4f2e-b806-a4e9e205fc82",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 33,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "2f350640-RE.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Điều trị bệnh tiểu đường tuýp 2 bao gồm sự kết hợp giữa thay đổi lối sống và dùng thuốc trị bệnh tiểu đường tuýp 2."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:43:19.042393Z",
+    "updated_at": "2025-12-21T11:19:39.439741Z",
+    "inner_id": 18,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 10,
+    "annotations": [
+      {
+        "id": 81,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 30,
+              "text": "Mức độ giáo dục chính quy thấp",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "uA6lDHS7u8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 32,
+              "end": 83,
+              "text": "công việc thiếu các hoạt động cần thử thách trí não",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "5diTLOyba8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 89,
+              "end": 108,
+              "text": "ít giao tiếp xã hội",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "ZUNlh5qai6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 136,
+              "end": 145,
+              "text": "Alzheimer",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "fhV4DazOsD",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:12:08.412716Z",
+        "updated_at": "2025-12-22T11:12:08.412716Z",
+        "draft_created_at": "2025-12-22T11:11:39.355867Z",
+        "lead_time": 59.385000000000005,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "3bfbafef-75f6-4484-b515-a9edc0af51f1",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 82,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "321ebccc-alzheimer.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Mức độ giáo dục chính quy thấp, công việc thiếu các hoạt động cần thử thách trí não hoặc ít giao tiếp xã hội là yếu tố nguy cơ của bệnh Alzheimer."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T11:00:35.766872Z",
+    "updated_at": "2025-12-22T11:12:08.479664Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 165,
+    "annotations": [
+      {
+        "id": 16,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 11,
+              "text": "Viêm dạ dày",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "NUzPjN6rTx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 27,
+              "end": 44,
+              "text": "vi khuẩn H.pylori",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "7NWWsFNPjY",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "7NWWsFNPjY",
+            "to_id": "NUzPjN6rTx",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:18:06.588000Z",
+        "updated_at": "2025-12-22T11:18:06.588000Z",
+        "draft_created_at": "2025-12-22T11:17:50.980756Z",
+        "lead_time": 30.621,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "1ce84f4d-cbf9-498e-8968-53ddb268f44f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 18,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ab6ef78d-data_viemdaday.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Viêm dạ dày do nhiễm trùng vi khuẩn H.pylori thì sẽ có thể lây nhiễm thông qua đường ăn uống."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T10:46:02.078667Z",
+    "updated_at": "2025-12-22T11:18:06.674879Z",
+    "inner_id": 18,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 118,
+    "annotations": [
+      {
+        "id": 41,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 57,
+              "end": 74,
+              "text": "điều trị nội khoa",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "dJjgbksBu-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 76,
+              "end": 102,
+              "text": "can thiệp mạch vành qua da",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "ZyyZ_VEY1U",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 109,
+              "end": 129,
+              "text": "thuốc tiêu sợi huyết",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "myzoc5eerj",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 133,
+              "end": 160,
+              "text": "phẫu thuật bắc cầu chủ vành",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "QWXwV7m6OF",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 25,
+              "end": 39,
+              "text": "bệnh mạch vành",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "Ntlp19375i",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "Ntlp19375i",
+            "to_id": "dJjgbksBu-",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "Ntlp19375i",
+            "to_id": "ZyyZ_VEY1U",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "Ntlp19375i",
+            "to_id": "myzoc5eerj",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "Ntlp19375i",
+            "to_id": "QWXwV7m6OF",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-20T19:52:13.488082Z",
+        "updated_at": "2025-12-20T19:52:13.488082Z",
+        "draft_created_at": "2025-12-20T19:51:28.509823Z",
+        "lead_time": 55.511,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "ebbd28c0-03da-4ff8-a558-408448b4f25b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 73,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "2f350640-RE.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Các phương pháp điều trị bệnh mạch vành hiệu quả bao gồm điều trị nội khoa, can thiệp mạch vành qua da, dùng thuốc tiêu sợi huyết và phẫu thuật bắc cầu chủ vành."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:43:19.054452Z",
+    "updated_at": "2025-12-20T19:52:13.540475Z",
+    "inner_id": 58,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 70,
+    "annotations": [
+      {
+        "id": 47,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 97,
+              "end": 106,
+              "text": "Parkinson",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "c9ej03okYQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 14,
+              "end": 29,
+              "text": "vật lý trị liệu",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "lKIaAS6oaT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "c9ej03okYQ",
+            "to_id": "lKIaAS6oaT",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T17:05:10.563471Z",
+        "updated_at": "2025-12-21T17:05:10.563471Z",
+        "draft_created_at": "2025-12-21T17:04:40.089208Z",
+        "lead_time": 46.418,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "2a3dc76c-4025-40ea-abab-2ea3381fe0ee",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 70,
+        "project": 5,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a5895984-parkinson.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Các biện pháp vật lý trị liệu giúp tối đa hóa hoạt động của cơ thể và tăng thể lực cho bệnh nhân Parkinson."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T16:43:38.645959Z",
+    "updated_at": "2025-12-21T17:05:10.714635Z",
+    "inner_id": 36,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 5,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 114,
+    "annotations": [
+      {
+        "id": 37,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 14,
+              "text": "Bệnh mạch vành",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "8Bs_hN8fAF",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 48,
+              "end": 55,
+              "text": "suy tim",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "CBdZ17-yK9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 57,
+              "end": 72,
+              "text": "hở van tim nặng",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "EkNNmbg-j4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 76,
+              "end": 93,
+              "text": "rối loạn nhịp tim",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "slwfbRWN4O",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "8Bs_hN8fAF",
+            "to_id": "CBdZ17-yK9",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "8Bs_hN8fAF",
+            "to_id": "EkNNmbg-j4",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "8Bs_hN8fAF",
+            "to_id": "slwfbRWN4O",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-20T19:49:18.480030Z",
+        "updated_at": "2025-12-20T19:49:18.480030Z",
+        "draft_created_at": "2025-12-20T19:48:45.580572Z",
+        "lead_time": 43.507,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "62b7b997-adf8-4b1f-bbe0-c65d12c937cd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 69,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "2f350640-RE.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bệnh mạch vành có thể gây ra các biến chứng như suy tim, hở van tim nặng và rối loạn nhịp tim."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:43:19.054452Z",
+    "updated_at": "2025-12-20T19:49:18.520282Z",
+    "inner_id": 54,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 193,
+    "annotations": [
+      {
+        "id": 46,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 11,
+              "text": "Viêm dạ dày",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "HFYNMygznH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 15,
+              "end": 29,
+              "text": "tăng tiết acid",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "qD2mPVEYdi",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 49,
+              "end": 72,
+              "text": "thuốc ức chế bơm proton",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "r0kqZ01cyD",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 77,
+              "end": 88,
+              "text": "Esomeprazol",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "9HCnDEU4Q3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 94,
+              "end": 103,
+              "text": "Omeprazol",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "F7pUtwiwv2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "HFYNMygznH",
+            "to_id": "r0kqZ01cyD",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "HFYNMygznH",
+            "to_id": "9HCnDEU4Q3",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "HFYNMygznH",
+            "to_id": "F7pUtwiwv2",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "qD2mPVEYdi",
+            "to_id": "HFYNMygznH",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:49:22.596548Z",
+        "updated_at": "2025-12-22T11:49:22.596548Z",
+        "draft_created_at": "2025-12-22T11:48:32.834577Z",
+        "lead_time": 58.716,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "a68ebe9a-4c1f-42b1-9be4-e785724afdff",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 46,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ab6ef78d-data_viemdaday.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Viêm dạ dày do tăng tiết acid được điều trị bằng thuốc ức chế bơm proton như Esomeprazol hoặc Omeprazol."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T10:46:02.078667Z",
+    "updated_at": "2025-12-22T11:49:22.722597Z",
+    "inner_id": 46,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 120,
+    "annotations": [
+      {
+        "id": 5,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 18,
+              "text": "Hội chứng migraine",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "GG-sWFj3gt",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 89,
+              "end": 96,
+              "text": "đột quỵ",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "pYTu9JXB2G",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 100,
+              "end": 107,
+              "text": "đau tim",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "Xerwgpb0dB",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "GG-sWFj3gt",
+            "to_id": "pYTu9JXB2G",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "GG-sWFj3gt",
+            "to_id": "Xerwgpb0dB",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T12:00:39.810766Z",
+        "updated_at": "2025-12-21T12:00:39.810766Z",
+        "draft_created_at": "2025-12-21T11:58:08.827495Z",
+        "lead_time": 494.009,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "e69b88da-ec58-4578-93cb-3d8c2fa2ce51",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 7,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ed3e32c4-daudau.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Hội chứng migraine nếu không được chẩn đoán và điều trị kịp thời có thể làm tăng nguy cơ đột quỵ và đau tim lên 42%."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T11:49:59.398372Z",
+    "updated_at": "2025-12-21T12:00:39.917821Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 124,
+    "annotations": [
+      {
+        "id": 9,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 37,
+              "text": "Chứng đau đầu migraine liệt nửa người",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "vOEZ49KPMx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 75,
+              "end": 114,
+              "text": "tình trạng liệt tạm thời một bên cơ thể",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "QXCb7jCIdg",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "vOEZ49KPMx",
+            "to_id": "QXCb7jCIdg",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T12:19:21.580064Z",
+        "updated_at": "2025-12-21T12:19:21.580064Z",
+        "draft_created_at": "2025-12-21T12:19:03.658353Z",
+        "lead_time": 34.509,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "8fba8f21-aa0a-45e6-b05e-a39af304e60e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 11,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ed3e32c4-daudau.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Chứng đau đầu migraine liệt nửa người (Hemiplegic) có dấu hiệu cảnh báo là tình trạng liệt tạm thời một bên cơ thể."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T11:49:59.399534Z",
+    "updated_at": "2025-12-21T12:19:21.686834Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 145,
+    "annotations": [
+      {
+        "id": 30,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 22,
+              "end": 36,
+              "text": "thuốc giảm đau",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "96VDl0cpBh",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 40,
+              "end": 49,
+              "text": "chống nôn",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "UHRKG9AK6z",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 77,
+              "end": 93,
+              "text": "đau đầu migraine",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "_TuX-2HK8c",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "_TuX-2HK8c",
+            "to_id": "96VDl0cpBh",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "_TuX-2HK8c",
+            "to_id": "UHRKG9AK6z",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T13:10:11.859754Z",
+        "updated_at": "2025-12-21T13:10:11.859754Z",
+        "draft_created_at": "2025-12-21T13:09:37.938192Z",
+        "lead_time": 48.209,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "acfafd81-8724-434f-9106-7d2fac1b8885",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 32,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ed3e32c4-daudau.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bác sĩ có thể kê thêm thuốc giảm đau và chống nôn để điều trị cho người bệnh đau đầu migraine."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T11:49:59.416933Z",
+    "updated_at": "2025-12-21T13:10:11.964033Z",
+    "inner_id": 27,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 67,
+    "annotations": [
+      {
+        "id": 50,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 81,
+              "end": 90,
+              "text": "Parkinson",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "vs2-yQuXgp",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 0,
+              "end": 23,
+              "text": "Thuốc kháng cholinergic",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "p29QuT185p",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 66,
+              "end": 69,
+              "text": "run",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "O18dlb3rk0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "vs2-yQuXgp",
+            "to_id": "p29QuT185p",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "vs2-yQuXgp",
+            "to_id": "O18dlb3rk0",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T17:09:37.327038Z",
+        "updated_at": "2025-12-21T17:09:37.327038Z",
+        "draft_created_at": "2025-12-21T17:08:48.778817Z",
+        "lead_time": 58.708,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "2b82eb74-b51f-455f-be25-2c0fab916416",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 67,
+        "project": 5,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a5895984-parkinson.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Thuốc kháng cholinergic cho hiệu quả tốt khi điều trị triệu chứng run trong bệnh Parkinson."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T16:43:38.644412Z",
+    "updated_at": "2025-12-21T17:09:37.439170Z",
+    "inner_id": 33,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 5,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 46,
+    "annotations": [
+      {
+        "id": 44,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 30,
+              "end": 39,
+              "text": "Parkinson",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "LpXcwBY77m",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 50,
+              "end": 67,
+              "text": "run nhẹ ở một tay",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "Ae1mP7JvdU",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 69,
+              "end": 78,
+              "text": "cứng khớp",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "qQ7UuYR1_p",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 84,
+              "end": 100,
+              "text": "cử động chậm lại",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "c0QRE_Irp9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "LpXcwBY77m",
+            "to_id": "Ae1mP7JvdU",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          },
+          {
+            "from_id": "LpXcwBY77m",
+            "to_id": "qQ7UuYR1_p",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          },
+          {
+            "from_id": "LpXcwBY77m",
+            "to_id": "c0QRE_Irp9",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T17:03:42.289198Z",
+        "updated_at": "2025-12-21T17:03:42.289198Z",
+        "draft_created_at": "2025-12-21T17:02:48.347823Z",
+        "lead_time": 62.606,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "19b82db0-188e-4567-9819-1fe268a8c9be",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 46,
+        "project": 5,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a5895984-parkinson.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Triệu chứng đầu tiên của bệnh Parkinson có thể là run nhẹ ở một tay, cứng khớp hoặc cử động chậm lại."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T16:43:38.615515Z",
+    "updated_at": "2025-12-21T17:03:42.411629Z",
+    "inner_id": 12,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 5,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 159,
+    "annotations": [
+      {
+        "id": 10,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 12,
+              "end": 27,
+              "text": "viêm dạ dày cấp",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "AbvU2u90nZ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 36,
+              "end": 49,
+              "text": "thuốc Aspirin",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "YBvAV7cFen",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 51,
+              "end": 83,
+              "text": "thuốc giảm đau chống viêm NSAIDS",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "iTb3f8uMOK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 85,
+              "end": 89,
+              "text": "rượu",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "lpm5FV95Lo",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 91,
+              "end": 119,
+              "text": "vi khuẩn Helicobacter Pylori",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "tvxtI3cz39",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 121,
+              "end": 127,
+              "text": "stress",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "iSPiETVcy0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 129,
+              "end": 145,
+              "text": "chấn thương nặng",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "N_D3vODPfP",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 147,
+              "end": 151,
+              "text": "bỏng",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "tU-EyFWqw9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 155,
+              "end": 172,
+              "text": "nhiễm khuẩn huyết",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "PDTwmKsC4K",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "YBvAV7cFen",
+            "to_id": "AbvU2u90nZ",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "iTb3f8uMOK",
+            "to_id": "AbvU2u90nZ",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "lpm5FV95Lo",
+            "to_id": "AbvU2u90nZ",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "tvxtI3cz39",
+            "to_id": "AbvU2u90nZ",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "iSPiETVcy0",
+            "to_id": "AbvU2u90nZ",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "N_D3vODPfP",
+            "to_id": "AbvU2u90nZ",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "tU-EyFWqw9",
+            "to_id": "AbvU2u90nZ",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "PDTwmKsC4K",
+            "to_id": "AbvU2u90nZ",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:12:24.900887Z",
+        "updated_at": "2025-12-22T11:12:24.900887Z",
+        "draft_created_at": "2025-12-22T11:09:29.111366Z",
+        "lead_time": 195.496,
+        "prediction": {},
+        "result_count": 10,
+        "unique_id": "d03c2255-0d54-4c15-b820-e6b7cc81eb52",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 12,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ab6ef78d-data_viemdaday.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Nguyên nhân viêm dạ dày cấp bao gồm thuốc Aspirin, thuốc giảm đau chống viêm NSAIDS, rượu, vi khuẩn Helicobacter Pylori, stress, chấn thương nặng, bỏng và nhiễm khuẩn huyết."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T10:46:02.078667Z",
+    "updated_at": "2025-12-22T11:12:24.983113Z",
+    "inner_id": 12,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 116,
+    "annotations": [
+      {
+        "id": 39,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 35,
+              "end": 49,
+              "text": "bệnh mạch vành",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "hwTKA8LhkG",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 58,
+              "end": 79,
+              "text": "đái tháo đường type 2",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "VW3Zqln3XJ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 81,
+              "end": 90,
+              "text": "hút thuốc",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "GwzmSYfuUi",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 92,
+              "end": 99,
+              "text": "béo phì",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "3IvzF273IQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 103,
+              "end": 109,
+              "text": "stress",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "F5AMBGAQ5l",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-20T19:50:19.790253Z",
+        "updated_at": "2025-12-20T19:50:19.790253Z",
+        "draft_created_at": "2025-12-20T19:50:03.792954Z",
+        "lead_time": 27.652,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "eb0f4474-3ce7-4156-9c6b-95ad087699ba",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 71,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "2f350640-RE.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Một số yếu tố làm tăng nguy cơ mắc bệnh mạch vành bao gồm đái tháo đường type 2, hút thuốc, béo phì và stress."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:43:19.054452Z",
+    "updated_at": "2025-12-20T19:50:19.829940Z",
+    "inner_id": 56,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 68,
+    "annotations": [
+      {
+        "id": 49,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 94,
+              "end": 103,
+              "text": "Parkinson",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "3fjUaxcj1i",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 0,
+              "end": 16,
+              "text": "Chất ức chế COMT",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "0FHMgboxP4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 21,
+              "end": 31,
+              "text": "entacapone",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "HoJPIVmOrz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 35,
+              "end": 44,
+              "text": "tolcapone",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "ueMVV1n9CU",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 68,
+              "end": 76,
+              "text": "levodopa",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "o7z_YxNKOB",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "3fjUaxcj1i",
+            "to_id": "o7z_YxNKOB",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "3fjUaxcj1i",
+            "to_id": "ueMVV1n9CU",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "3fjUaxcj1i",
+            "to_id": "HoJPIVmOrz",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          },
+          {
+            "from_id": "3fjUaxcj1i",
+            "to_id": "0FHMgboxP4",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T17:07:40.952573Z",
+        "updated_at": "2025-12-21T17:07:40.952573Z",
+        "draft_created_at": "2025-12-21T17:06:14.526712Z",
+        "lead_time": 100.124,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "f786a390-015c-4c28-9f5f-2b4cf3ec5600",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 68,
+        "project": 5,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a5895984-parkinson.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Chất ức chế COMT như entacapone và tolcapone được dùng phối hợp với levodopa để điều trị bệnh Parkinson."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T16:43:38.644919Z",
+    "updated_at": "2025-12-21T17:07:41.046464Z",
+    "inner_id": 34,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 5,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 94,
+    "annotations": [
+      {
+        "id": 50,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 27,
+              "end": 40,
+              "text": "tăng huyết áp",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "uVYwa2xlA5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 49,
+              "end": 57,
+              "text": "thừa cân",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "bkFS_4qmnV",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 63,
+              "end": 70,
+              "text": "béo phì",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "LbPd7mWNxo",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 77,
+              "end": 87,
+              "text": "tiểu đường",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "x-1ZXlp8ja",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "bkFS_4qmnV",
+            "to_id": "uVYwa2xlA5",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "LbPd7mWNxo",
+            "to_id": "uVYwa2xlA5",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "x-1ZXlp8ja",
+            "to_id": "uVYwa2xlA5",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T11:53:18.047962Z",
+        "updated_at": "2025-12-21T11:53:18.047962Z",
+        "draft_created_at": "2025-12-21T11:52:49.379603Z",
+        "lead_time": 382.514,
+        "prediction": {},
+        "result_count": 5,
+        "unique_id": "37ac2f5a-528e-4488-8e0e-a60f0949532c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 48,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "2f350640-RE.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Các yếu tố góp phần gây ra tăng huyết áp bao gồm thừa cân hoặc béo phì và bị tiểu đường."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:43:19.051035Z",
+    "updated_at": "2025-12-21T11:53:18.087893Z",
+    "inner_id": 33,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 31,
+    "annotations": [
+      {
+        "id": 96,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 5,
+              "end": 14,
+              "text": "Alzheimer",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "6JvkNHM6IX",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 52,
+              "end": 58,
+              "text": "bị lạc",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "tBr_GphUmw",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 60,
+              "end": 73,
+              "text": "đi lang thang",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "77wOqWH2mU",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 75,
+              "end": 104,
+              "text": "nhầm lẫn quá khứ với hiện tại",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "ajkdm5RBLe",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 108,
+              "end": 125,
+              "text": "hành vi hung hăng",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "_o_Q2xArJn",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "6JvkNHM6IX",
+            "to_id": "tBr_GphUmw",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          },
+          {
+            "from_id": "6JvkNHM6IX",
+            "to_id": "77wOqWH2mU",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          },
+          {
+            "from_id": "6JvkNHM6IX",
+            "to_id": "ajkdm5RBLe",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          },
+          {
+            "from_id": "6JvkNHM6IX",
+            "to_id": "_o_Q2xArJn",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:30:15.118479Z",
+        "updated_at": "2025-12-22T11:30:15.118479Z",
+        "draft_created_at": "2025-12-22T11:24:37.470156Z",
+        "lead_time": 347.641,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "75a263c6-a972-4acc-b418-5e4c4788568e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 103,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "321ebccc-alzheimer.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bệnh Alzheimer giai đoạn trung bình có biểu hiện dễ bị lạc, đi lang thang, nhầm lẫn quá khứ với hiện tại và hành vi hung hăng."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T11:00:35.781251Z",
+    "updated_at": "2025-12-22T11:30:15.196819Z",
+    "inner_id": 31,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 102,
+    "annotations": [
+      {
+        "id": 30,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 43,
+              "end": 60,
+              "text": "cơn đau thắt ngực",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "aAg3SwMfn4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 0,
+              "end": 14,
+              "text": "Bệnh mạch vành",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "m1Mzp3m9WI",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "m1Mzp3m9WI",
+            "to_id": "aAg3SwMfn4",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-20T19:19:14.090317Z",
+        "updated_at": "2025-12-20T19:19:14.090317Z",
+        "draft_created_at": "2025-12-20T19:18:20.067433Z",
+        "lead_time": 21.304,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "06b5525d-46ec-4f9d-a3d9-c6855c1e1c27",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 56,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "2f350640-RE.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bệnh mạch vành có triệu chứng điển hình là cơn đau thắt ngực, nhất là khi nhiễm lạnh, xúc động hoặc gắng sức."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:43:19.052028Z",
+    "updated_at": "2025-12-20T19:19:14.129932Z",
+    "inner_id": 41,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 119,
+    "annotations": [
+      {
+        "id": 4,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 16,
+              "text": "Đau đầu Migraine",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "qraXRAhPJE",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 37,
+              "end": 49,
+              "text": "cơn đau nhức",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "5WTVumD4-P",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "qraXRAhPJE",
+            "to_id": "5WTVumD4-P",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T11:52:16.364518Z",
+        "updated_at": "2025-12-21T11:52:16.364518Z",
+        "draft_created_at": "2025-12-21T11:51:36.107894Z",
+        "lead_time": 60.302,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "d02400da-64fe-442f-b9e5-2c2ec47e737d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 6,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ed3e32c4-daudau.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Đau đầu Migraine thường gây ra những cơn đau nhức cực kỳ nghiêm trọng."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T11:49:59.397162Z",
+    "updated_at": "2025-12-21T11:52:16.480100Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 76,
+    "annotations": [
+      {
+        "id": 19,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 22,
+              "text": "Bệnh tiểu đường tuýp 2",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "e6C_mHwyPG",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 96,
+              "end": 104,
+              "text": "thừa cân",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "jTjG6dUe0v",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 105,
+              "end": 112,
+              "text": "béo phì",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "fiob7VVo02",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 114,
+              "end": 130,
+              "text": "lười tập thể dục",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "MowwT71_ko",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "jTjG6dUe0v",
+            "to_id": "e6C_mHwyPG",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "fiob7VVo02",
+            "to_id": "e6C_mHwyPG",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "MowwT71_ko",
+            "to_id": "e6C_mHwyPG",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-20T18:42:27.613118Z",
+        "updated_at": "2025-12-20T18:42:27.613118Z",
+        "draft_created_at": null,
+        "lead_time": 38.661,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "63d23462-7eab-4ec5-9f2c-d619e9b6b214",
+        "import_id": 4,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 19,
+        "project": 4,
+        "updated_by": null,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "68442069-project-1-at-2025-12-19-16-22-3550d047.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bệnh tiểu đường tuýp 2 ngày càng trẻ hóa, nhiều trẻ em và thanh thiếu niên mắc bệnh, chủ yếu do thừa cân béo phì, lười tập thể dục."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:42:27.613118Z",
+    "updated_at": "2025-12-20T18:42:27.613118Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": null,
+    "comment_authors": []
+  },
+  {
+    "id": 25,
+    "annotations": [
+      {
+        "id": 103,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 5,
+              "end": 14,
+              "text": "Alzheimer",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "iANveCyUH0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 74,
+              "end": 99,
+              "text": "chụp cắt lớp vi tính (CT)",
+              "labels": [
+                "Chẩn đoán"
+              ]
+            },
+            "id": "jG8jO1NP6C",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 105,
+              "end": 129,
+              "text": "chụp cộng hưởng từ (MRI)",
+              "labels": [
+                "Chẩn đoán"
+              ]
+            },
+            "id": "30i_G4g4OD",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "iANveCyUH0",
+            "to_id": "jG8jO1NP6C",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Chẩn_đoán_bằng"
+            ]
+          },
+          {
+            "from_id": "iANveCyUH0",
+            "to_id": "30i_G4g4OD",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Chẩn_đoán_bằng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:36:42.618717Z",
+        "updated_at": "2025-12-22T11:36:42.618717Z",
+        "draft_created_at": "2025-12-22T11:36:09.941198Z",
+        "lead_time": 41.863,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "a8e6e55f-2e7c-4018-ba09-7e3db263aaaf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 97,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "321ebccc-alzheimer.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bệnh Alzheimer được chẩn đoán bằng các kỹ thuật đánh giá hình ảnh não như chụp cắt lớp vi tính (CT) hoặc chụp cộng hưởng từ (MRI)."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T11:00:35.778548Z",
+    "updated_at": "2025-12-22T11:36:42.694147Z",
+    "inner_id": 25,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 173,
+    "annotations": [
+      {
+        "id": 24,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 11,
+              "text": "Viêm dạ dày",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "QT14oJuilY",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 25,
+              "end": 49,
+              "text": "đầy bụng trên sau khi ăn",
+              "labels": [
+                "Triệu chứng"
+              ]
+            },
+            "id": "WoBkok1av9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "QT14oJuilY",
+            "to_id": "WoBkok1av9",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Có_triệu_chứng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:29:56.375036Z",
+        "updated_at": "2025-12-22T11:29:56.375036Z",
+        "draft_created_at": "2025-12-22T11:29:48.920490Z",
+        "lead_time": 18.246,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "e7f71e80-9b4c-4e38-977f-1b0ad2059dbc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 26,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ab6ef78d-data_viemdaday.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Viêm dạ dày có biểu hiện đầy bụng trên sau khi ăn."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T10:46:02.078667Z",
+    "updated_at": "2025-12-22T11:29:56.461934Z",
+    "inner_id": 26,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 128,
+    "annotations": [
+      {
+        "id": 13,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 30,
+              "text": "Thay đổi nội tiết tố ở nữ giới",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "863Q-17GjT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 46,
+              "end": 70,
+              "text": "chứng Menstrual Migraine",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "8zIgI5FXgJ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "863Q-17GjT",
+            "to_id": "8zIgI5FXgJ",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-21T12:22:09.565140Z",
+        "updated_at": "2025-12-21T12:22:09.565140Z",
+        "draft_created_at": "2025-12-21T12:21:54.342745Z",
+        "lead_time": 27.34,
+        "prediction": {},
+        "result_count": 3,
+        "unique_id": "a56d458b-33ea-46fa-9fbd-daf25312a6e6",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 15,
+        "project": 4,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ed3e32c4-daudau.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Thay đổi nội tiết tố ở nữ giới có thể gây nên chứng Menstrual Migraine – đau nửa đầu do kinh nguyệt."
+    },
+    "meta": {},
+    "created_at": "2025-12-21T11:49:59.404365Z",
+    "updated_at": "2025-12-21T12:22:09.676209Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 170,
+    "annotations": [
+      {
+        "id": 21,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 11,
+              "text": "Viêm dạ dày",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "VlXLmh-aD0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:26:20.761101Z",
+        "updated_at": "2025-12-22T11:26:20.761101Z",
+        "draft_created_at": "2025-12-22T11:24:11.069894Z",
+        "lead_time": 145.602,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "4cdcfcf0-aec0-43bf-b65c-46b6ca45039f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 23,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ab6ef78d-data_viemdaday.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Viêm dạ dày là tình trạng niêm mạc dạ dày bị viêm nhiễm và kích ứng."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T10:46:02.078667Z",
+    "updated_at": "2025-12-22T11:26:20.843546Z",
+    "inner_id": 23,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 20,
+    "annotations": [
+      {
+        "id": 91,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 4,
+              "end": 20,
+              "text": "mảng vón amyloid",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "X1VHyGapWf",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 28,
+              "end": 71,
+              "text": "đám rối sợi thần kinh phát triển bất thường",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "wEHKhc0ixj",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 109,
+              "end": 118,
+              "text": "Alzheimer",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "yOoNC37nUs",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "wEHKhc0ixj",
+            "to_id": "yOoNC37nUs",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "X1VHyGapWf",
+            "to_id": "yOoNC37nUs",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:21:38.003766Z",
+        "updated_at": "2025-12-22T11:21:38.003766Z",
+        "draft_created_at": "2025-12-22T11:20:51.087765Z",
+        "lead_time": 70.209,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "ce6af1ca-cbb9-4157-97b3-9cdccd354783",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 92,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "321ebccc-alzheimer.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Các mảng vón amyloid và các đám rối sợi thần kinh phát triển bất thường trong não là nguyên nhân gây ra bệnh Alzheimer."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T11:00:35.774448Z",
+    "updated_at": "2025-12-22T11:21:38.063657Z",
+    "inner_id": 20,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 169,
+    "annotations": [
+      {
+        "id": 20,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 15,
+              "text": "Viêm dạ dày mạn",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "b6vuvW3maz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 23,
+              "end": 25,
+              "text": "HP",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "PjcjpY3FI9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 38,
+              "end": 60,
+              "text": "thuốc diệt vi khuẩn HP",
+              "labels": [
+                "Điều trị"
+              ]
+            },
+            "id": "pASNYKRemW",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "PjcjpY3FI9",
+            "to_id": "b6vuvW3maz",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          },
+          {
+            "from_id": "b6vuvW3maz",
+            "to_id": "pASNYKRemW",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Điều_trị_bằng"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-22T11:23:52.228650Z",
+        "updated_at": "2025-12-22T11:23:52.228650Z",
+        "draft_created_at": "2025-12-22T11:23:23.205822Z",
+        "lead_time": 124.635,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "608aaf76-fd96-4c5e-94fc-4c05ed720708",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 22,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ab6ef78d-data_viemdaday.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Viêm dạ dày mạn nếu do HP có thể dùng thuốc diệt vi khuẩn HP để điều trị."
+    },
+    "meta": {},
+    "created_at": "2025-12-22T10:46:02.078667Z",
+    "updated_at": "2025-12-22T11:23:52.316291Z",
+    "inner_id": 22,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 74,
+    "annotations": [
+      {
+        "id": 17,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 22,
+              "text": "Bệnh tiểu đường tuýp 2",
+              "labels": [
+                "Bệnh"
+              ]
+            },
+            "id": "ooqNMJXq64",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 33,
+              "end": 87,
+              "text": "các tế bào trong cơ thể không sử dụng insulin hiệu quả",
+              "labels": [
+                "Nguyên nhân"
+              ]
+            },
+            "id": "J0R20Ih8jT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "J0R20Ih8jT",
+            "to_id": "ooqNMJXq64",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "Gây_ra"
+            ]
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-12-20T18:42:27.613118Z",
+        "updated_at": "2025-12-20T18:42:27.613118Z",
+        "draft_created_at": null,
+        "lead_time": 99.68299999999999,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c66a673c-59e2-4ad7-bba5-1289b4dc1dad",
+        "import_id": 2,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 17,
+        "project": 4,
+        "updated_by": null,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "68442069-project-1-at-2025-12-19-16-22-3550d047.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "text": "Bệnh tiểu đường tuýp 2 xảy ra do các tế bào trong cơ thể không sử dụng insulin hiệu quả."
+    },
+    "meta": {},
+    "created_at": "2025-12-20T18:42:27.613118Z",
+    "updated_at": "2025-12-20T18:42:27.613118Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 4,
+    "updated_by": null,
+    "comment_authors": []
+  }
+]
