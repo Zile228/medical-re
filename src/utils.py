@@ -1,10 +1,10 @@
 import os
 import joblib
 import json
-import re  # Thêm thư viện re
+import re  
 from pathlib import Path
 import glob
-import numpy as np # Thêm numpy nếu cần cho xử lý mảng
+import numpy as np
 
 # --- CẤU HÌNH ĐƯỜNG DẪN CHUNG ---
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -83,7 +83,7 @@ def load_re_model_resources(vec_name, model_name):
         print(f"Lỗi khi load tài nguyên ({vec_name}, {model_name}): {e}")
         return None, None, None, None
 
-# --- [NEW] BỘ LUẬT RULE-BASED (DÙNG CHUNG) ---
+# BỘ LUẬT RULE-BASED 
 
 # 1. Từ khóa nhận diện quan hệ
 KEYWORDS = {
@@ -122,6 +122,7 @@ def _check_no_relation_rules(text, s_type, o_type):
     if s_type == 'Bệnh' and o_type == 'Nguyên nhân': return True 
     if s_type == 'Điều trị' and o_type == 'Bệnh': return True 
     if s_type == 'Điều trị' and o_type == 'Triệu chứng': return True
+    if s_type == 'Triệu chứng' and o_type == 'Bệnh': return True
 
     # Rule 2: Liệt kê (cùng loại, ngăn cách bởi dấu phẩy/và/hoặc)
     if s_type == o_type:
