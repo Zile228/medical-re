@@ -10,8 +10,8 @@
 ## Công nghệ sử dụng
 - **Ngôn ngữ:** Python 3.8+
 - **Model:** Logistic Regression, SVM, Random Forest, MLP (Deep Learning).
-- **Embeddings:** TF-IDF, Word2Vec, ViHealthBERT.
-- **App:** Streamlit.
+- **Embeddings:** BoW, TF-IDF, Word2Vec, ViHealthBERT.
+- **App:** Gradio.
 
 ## Cấu trúc repo
 ```text
@@ -25,18 +25,23 @@ vn-medical-re/
 │   ├── 01_eda.ipynb        # Phân tích dữ liệu
 │   └── 02_experiment.ipynb # Thử nghiệm các model
 │
-├── src/                    # Source code chính (file .py)
-│   ├── preprocessing.py    # Code xử lý JSON -> CSV, tạo marker [S], [O]
-│   ├── vectorizer.py       # Code tạo vector (TF-IDF, W2V, BERT)
-│   └── train.py            # Code huấn luyện model và lưu file .pkl
+├──src/
+│   ├── utils.py               # File cấu hình gốc: chứa đường dẫn (Path), hàm xử lý text (add_markers), và bộ luật (Rule-based).
+│   ├── preprocessing.py       # Tiền xử lý: Đọc JSON Label Studio -> Chia tập Train/Test -> Tạo file CSV chứa cặp thực thể.
+│   ├── vectorizer.py          # Vector hóa: Chuyển đổi văn bản sang số (BoW, TF-IDF, Word2Vec, BERT Embedding).
+│   ├── train_ner.py           # Huấn luyện NER (Cách 1): Dùng mô hình Deep Learning (PhoBERT + HuggingFace).
+│   ├── train_ner_spacy.py     # Huấn luyện NER (Cách 2): Dùng thư viện SpaCy 
+│   ├── hybrid_labeling.py     # Gán nhãn tự động (Hybrid): Dùng model đã train + Rule để gán nhãn cho dữ liệu mới (Silver data).
+│   ├── train_re.py            # Huấn luyện RE: Train các model phân loại quan hệ (SVM, Random Forest, MLP...) dùng vector đã tạo.
+│   └── evaluate.py            # Đánh giá & Dự đoán: Tính điểm F1-score, so sánh các model và chứa hàm inference pipeline (demo).
 │
 ├── models/                 # Chứa model đã train xong
-│   ├── svm_model.pkl
-│   ├── logreg_model.pkl
-│   └── vectorizer.pkl      
+│   ├── ...
+│   ├── ...
+│   └── ...     
 │
-├── app/                    # Code Web App (Streamlit)
-│   └── main.py             # File chạy web
+├── app/                    # Code Web App (Gradio)
+│   └── app.py             # File chạy web
 │
 ├── .gitignore              
 ├── requirements.txt        # Danh sách thư viện cần cài
@@ -48,7 +53,7 @@ vn-medical-re/
 
 1. **Clone repository:**
    ```bash
-   git clone https://github.com/username-cua-ban/vn-medical-re.git
+   git clone https://github.com/Zile228/vn-medical-re.git
    cd vn-medical-re
    ```
 
@@ -59,7 +64,7 @@ vn-medical-re/
 
 3. **Chạy ứng dụng Demo:**
    ```bash
-   streamlit run app/main.py
+   streamlit run app/app.py
    ```
 
 ## 📂 Dữ liệu
