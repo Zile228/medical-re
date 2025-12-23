@@ -15,7 +15,7 @@
 
 ## Cấu trúc repo
 ```text
-vn-medical-re/
+medical-re/
 │
 ├── data/                   # Chứa dữ liệu
 │   ├── raw/                # Dữ liệu thô (file json từ Label Studio, file crawl)
@@ -53,7 +53,7 @@ vn-medical-re/
 
 1. **Clone repository:**
    ```bash
-   git clone https://github.com/Zile228/vn-medical-re.git
+   git clone https://github.com/Zile228/medical-re.git
    cd vn-medical-re
    ```
 
