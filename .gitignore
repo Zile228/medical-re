@@ -1,11 +1,10 @@
 __pycache__/
-*.ipynb_checkpoints
-*.pkl
-*.pth
-*.joblib
-*.model
-*.npy
-*.npz
+#*.ipynb_checkpoints
+#*.pkl
+#*.joblib
+#*.model
+#*.npy
+#*.npz
 #data/
 venv/
 .env
