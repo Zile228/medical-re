@@ -6,12 +6,11 @@ import sys
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 
-# Thêm đường dẫn để import được utils khi chạy script
 sys.path.append(str(Path(__file__).resolve().parent))
 from utils import BASE_DIR, DATA_DIR, add_markers
 
 # Định nghĩa đường dẫn Input/Output
-RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw') 
+RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw')
 PROCESSED_TRAIN_JSON = os.path.join(DATA_DIR, 'processed', 'train_tasks.json')
 PROCESSED_TEST_JSON = os.path.join(DATA_DIR, 'processed', 'test_tasks.json')
 PROCESSED_TRAIN_CSV = os.path.join(DATA_DIR, 'processed', 'train_data.csv')
@@ -21,14 +20,14 @@ def load_and_merge_json_files(directory):
     """Gộp các file JSON và khử trùng lặp nội dung."""
     json_files = list(Path(directory).glob('*.json'))
     json_files.sort()
-    
+
     if not json_files:
         print(f"Cảnh báo: Không tìm thấy file JSON nào trong {directory}")
         return []
 
     merged_tasks = []
     seen_texts = set()
-    
+
     for file_path in json_files:
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -50,7 +49,7 @@ def load_and_merge_json_files(directory):
 def process_tasks_to_pairs(tasks_list):
     """Chuyển đổi Task Label Studio sang dạng Cặp (Pairs) cho RE."""
     processed_samples = []
-    
+
     for task in tasks_list:
         original_text = task.get('data', {}).get('text', "")
         if not original_text or not task.get('annotations'): continue
@@ -95,7 +94,6 @@ def process_tasks_to_pairs(tasks_list):
             subj = entities[source_id]
             obj = entities[target_id]
             
-            # Gọi hàm add_markers từ utils
             marked_sentence = add_markers(
                 original_text, 
                 {'start': subj['start'], 'end': subj['end']},
@@ -118,16 +116,16 @@ def process_tasks_to_pairs(tasks_list):
 
 def main():
     print("--- BẮT ĐẦU XỬ LÝ DỮ LIỆU ---")
-    
+    os.makedirs(os.path.dirname(PROCESSED_TRAIN_JSON), exist_ok=True)
+
     # 1. Gộp và lọc trùng
     all_tasks = load_and_merge_json_files(RAW_DATA_DIR)
     print(f"Tổng số câu sạch: {len(all_tasks)}")
 
     # 2. Chia tập Train/Test (80/20)
     train_tasks, test_tasks = train_test_split(all_tasks, test_size=0.2, random_state=42)
-    
+
     # 3. Lưu JSON để dùng cho NER
-    os.makedirs(os.path.dirname(PROCESSED_TRAIN_JSON), exist_ok=True)
     with open(PROCESSED_TRAIN_JSON, 'w', encoding='utf-8') as f:
         json.dump(train_tasks, f, ensure_ascii=False, indent=2)
     with open(PROCESSED_TEST_JSON, 'w', encoding='utf-8') as f:

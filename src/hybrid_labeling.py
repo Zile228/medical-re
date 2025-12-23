@@ -1,104 +1,114 @@
 import pandas as pd
-import numpy as np
 import os
 import sys
-import torch
 import itertools
 from pathlib import Path
-from transformers import AutoTokenizer, AutoModelForTokenClassification
 
-# Import từ utils
 sys.path.append(str(Path(__file__).resolve().parent))
 from utils import (
-    add_markers, load_re_model_resources, load_unlabeled_data, 
-    apply_rules, MODEL_DIR, DATA_DIR
+    load_unlabeled_data, add_markers, 
+    DATA_DIR, MODEL_DIR
 )
-# Import từ evaluate (Phiên bản mới)
-from evaluate import predict_ner_general, load_ner_model_unified
+# Import Pipeline và Logic dự đoán lẻ (để loop qua từng cặp)
+from evaluate import MedicalKnowledgePipeline, find_best_model_from_results, predict_re_pair_logic, predict_ner_general
 
 # CẤU HÌNH
-# Bạn có thể trỏ vào 'ner_bert_model' hoặc 'ner_spacy_model'
 NER_MODEL_PATH = os.path.join(MODEL_DIR, 'ner_spacy_model') 
 UNLABELED_DIR = os.path.join(DATA_DIR, 'raw', 'unlabeled')
 OUTPUT_SILVER_PATH = os.path.join(DATA_DIR, 'processed', 'silver_data.csv')
 
 def main():
+    """File này cần import predict_re_pair_logic từ evaluate để chạy logic dự đoán thủ công 
+    (do chúng ta muốn gán nhãn cho cả trường hợp "No_relation" để tạo dữ liệu training phong phú 
+    hơn, trong khi hàm process_text của Pipeline chỉ trả về positive relations)."""
+
     print("BẮT ĐẦU QUY TRÌNH HYBRID LABELING...")
+
+    # 1. Tự động tìm model tốt nhất từ Supervised Phase
+    # (Lưu ý: Luôn tìm từ Supervised trước để tạo silver data)
+    best_model_name, best_vec_name = find_best_model_from_results(use_silver=False)
     
-    # 1. Load Resources
-    print(f"--> Loading NER Model từ: {NER_MODEL_PATH}...")
-    ner_model_obj, ner_tokenizer, ner_device = load_ner_model_unified(NER_MODEL_PATH)
-    if ner_model_obj is None:
-        print("Lỗi: Không load được NER Model.")
+    if not best_model_name:
+        print("Lỗi: Không tìm thấy thông tin model tốt nhất. Hãy chạy train_re.py (Supervised) trước.")
         return
 
-    # Load Model RE
-    TARGET_VEC = 'bow' 
-    TARGET_MODEL = 'RandomForest'
-    vec_re, scaler_re, clf_re, le_re = load_re_model_resources(TARGET_VEC, TARGET_MODEL)
-    re_device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    
-    # 2. Load Data
+    # 2. Khởi tạo Pipeline (Load tài nguyên 1 lần dùng mãi mãi)
+    try:
+        pipeline = MedicalKnowledgePipeline(
+            ner_model_path=NER_MODEL_PATH,
+            re_model_name=best_model_name,
+            vec_name=best_vec_name,
+            use_silver=False
+        )
+    except Exception as e:
+        print(f"Lỗi khởi tạo pipeline: {e}")
+        return
+
+    # 3. Load Data & Predict
     raw_texts = load_unlabeled_data(UNLABELED_DIR)
     generated_samples = []
-    stats = {'Rule': 0, 'Model': 0, 'No_relation': 0, 'Ignored': 0}
-    
+    stats = {'Relations_Found': 0, 'No_relation': 0, 'Ignored': 0}
+
     print(f"--> Đang xử lý {len(raw_texts)} câu...")
     for text in raw_texts:
-        # A. NER Extract (UNIFIED)
-        pred_ents = predict_ner_general(text, ner_model_obj, ner_device, ner_tokenizer)
-        if len(pred_ents) < 2: continue
+        # A. NER Phase (Sử dụng hàm từ evaluate nhưng truyền resources của pipeline vào)
+        ents = predict_ner_general(text, pipeline.ner_model, pipeline.ner_device, pipeline.ner_tokenizer)
         
-        # B. Duyệt cặp thực thể
-        for subj, obj in itertools.permutations(pred_ents, 2):
-            final_label = None
-            method = None
-            
-            # --- PHASE 1: RULE ---
-            rule_label = apply_rules(text, subj['text'], subj['label'], obj['text'], obj['label'])
-            if rule_label:
-                final_label = rule_label
-                method = "Rule"
-            else:
-                # --- PHASE 2: MODEL ---
-                marked = add_markers(text, {'start': subj['start'], 'end': subj['end']}, 
-                                     {'start': obj['start'], 'end': obj['end']}, "S", "O")
-                
-                vector = vec_re.transform([marked])
-                if scaler_re: vector = scaler_re.transform(vector)
-                
-                if hasattr(clf_re, "predict_proba"):
-                    probs = clf_re.predict_proba(vector)[0]
-                    max_prob = np.max(probs)
-                    pred_idx = np.argmax(probs)
-                    pred_label_str = le_re.inverse_transform([pred_idx])[0]
-                    
-                    if pred_label_str != "No_relation" and max_prob > 0.5:
-                        final_label = pred_label_str; method = "Model"
-                    elif pred_label_str == "No_relation" and max_prob > 0.5:
-                        final_label = "No_relation"; method = "Model"
-            
-            # C. Lưu
-            if final_label:
-                stats[method if final_label != "No_relation" else 'No_relation'] += 1
-                marked_final = add_markers(text, {'start': subj['start'], 'end': subj['end']}, 
-                                           {'start': obj['start'], 'end': obj['end']}, "S", "O")
-                generated_samples.append({
-                    'original_sentence': text,
-                    'subject_text': subj['text'], 'subject_type': subj['label'],
-                    'object_text': obj['text'], 'object_type': obj['label'],
-                    'marked_sentence': marked_final,
-                    'relation_label': final_label,
-                    'source': f'Silver-{method}'
-                })
-            else: stats['Ignored'] += 1
+        # Deduplication
+        unique_ents = []
+        seen_texts = set()
+        for ent in ents:
+            norm_text = ent['text'].lower().strip()
+            if norm_text not in seen_texts:
+                seen_texts.add(norm_text)
+                unique_ents.append(ent)
 
+        if len(unique_ents) < 2: 
+            stats['Ignored'] += 1
+            continue
+
+        # B. RE Phase (Duyệt qua tất cả các cặp để gán nhãn)
+        for subj, obj in itertools.permutations(unique_ents, 2):
+            # Gọi hàm logic cốt lõi, truyền tài nguyên từ pipeline vào
+            label = predict_re_pair_logic(
+                text, subj, obj, 
+                vec_name=pipeline.vec_name,
+                vec_model=pipeline.vec,
+                scaler=pipeline.scaler,
+                clf=pipeline.clf,
+                le=pipeline.le,
+                device=pipeline.device,
+                bert_tokenizer=pipeline.bert_tokenizer,
+                bert_model=pipeline.bert_model,
+                threshold = 0.8
+            )
+            
+            if label != "No_relation":
+                stats['Relations_Found'] += 1
+            else:
+                stats['No_relation'] += 1
+                
+            # C. Tạo mẫu dữ liệu Silver
+            marked_final = add_markers(text, {'start': subj['start'], 'end': subj['end']}, 
+                                       {'start': obj['start'], 'end': obj['end']}, "S", "O")
+            
+            generated_samples.append({
+                'original_sentence': text,
+                'subject_text': subj['text'], 'subject_type': subj['label'],
+                'object_text': obj['text'], 'object_type': obj['label'],
+                'marked_sentence': marked_final,
+                'relation_label': label,
+                'source': f'Silver-{best_model_name}'
+            })
+
+    # 4. Lưu kết quả
     df_silver = pd.DataFrame(generated_samples)
     if not df_silver.empty:
         df_silver.to_csv(OUTPUT_SILVER_PATH, index=False, encoding='utf-8')
         print(f"\nHoàn tất. File saved: {OUTPUT_SILVER_PATH}")
         print(f"Thống kê: {stats}")
-    else: print("Không sinh ra được mẫu nào.")
+    else:
+        print("Không sinh ra được mẫu nào.")
 
 if __name__ == "__main__":
     main()
